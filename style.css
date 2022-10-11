@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.main{
+    background-color: none;
+    height: 10vh;
+    position: fixed;
+    right: 0px;
+    z-index: 3;
+}
+.logo{
+    position: fixed;
+   padding:5px ; 
+   color: #ffffff;
+   left: 0px;
+    
+    
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 15px;
+    
+}  
+ul li{
+    display: inline-block;
+
+} 
+ul li a{
+    text-decoration: none;
+    color:white;
+    padding: 5px 15px;
+    border: 1px solid white;
+    transition: 0.6s ease;
+}
+ul li a:hover{
+    background-color: white;
+    color: black;
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(nature.jpg);
+    background-repeat: repeat-y;
+    height: 100vh;
+    background-size: cover;
+    
+    
+      }
+
+  
+ 
+
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.title h1{
+    color: white;
+    font-size: 70px;
+    text-shadow: 5px 10px 15px black ;
+
+}
+.projects{
+    position: absolute;
+    top: 140%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.projects h5{
+    color: white;
+    font-size: 20px;
+    text-shadow: 2px 2px black;
+    font-family: sans-serif;
+}
+.button{
+    position: absolute;
+    top: 200%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.btn{
+    border: 2px solid white;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+.About-Me{
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(treee.jpg);
+    background-repeat: repeat-x;
+    padding:60px;
+
+}
+
+#one{
+background-color: #c8c9c9;
+border: 7px;
+border-style: outset;
+padding: 30px;
+}
+#two{
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+
+}
+
+#three{
+color: black;
+font-family: monospace;
+font-weight: 200;
+font-size: large;
+}
+.stack{
+    background-color: black;
+    height: 60vh;
+   
+}
+#stack1{
+    
+    position: relative;
+    
+}
+#stack2{
+    position: absolute;
+    left: 400px;
+}
+
+#stack-H{
+    font-size: medium;
+    color: black;
+    padding: 10px;
+    position: absolute;
+    top:200px;
+    left: 40px;
+    text-shadow: 15px 25px 35px blue;
+    display: inline;
+    background-color: rgb(188, 253, 9);
+    border-style: outset;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+    .my-education{
+   background-image:  linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(education-tree.jpg);
+   height: 30vh;
+   background-size: auto;
+   background-repeat: repeat-x;
+    position: relative;
+    }
+.my-education h2{
+    color: chocolate;
+    text-align: center;
+      padding: 5px;
+      text-decoration: overline underline;
+      position: absolute;
+      left:600px;
+      top: 10px;
+      text-shadow: 10px 10px 10px black;
+}
+.my-education p{
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 10px 10px 10px black;
+    
+}
+.footer{
+	background-color: #24262b;
+    padding: 60px 0;
+}
+    .container{
+	max-width: 1170px;
+	margin:auto;
+    position: relative;
+}
+
+
+
+.footer-col1{
+    font-size: 18px;
+	color: #ffffff;
+    
+	position: absolute;
+    left: 0px;
+   
+    
+
+}
+#company{
+    display: inline-block;
+  position: relative;
+  color: #0087ca;
+}
+#company:after{
+    content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #0087ca;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+#company:hover:after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+.footer-col1 ul li{
+display: block;
+font-size: small;
+padding: 4px;
+
+
+}
+.footer-col1 ul li a{
+    border: 0px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    
+}
+.footer-col2{
+    color: #ffffff;
+    position: absolute;
+    right: 0px;
+}
+#devoloper{
+    display: inline-block;
+  position: relative;
+  color: #0087ca;
+}
+#devoloper:after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #0087ca;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+#devoloper:hover:after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+.footer-col2 ul li{
+    display: block;
+    font-size: small;
+    padding: 4px;
+}
+.footer-col2 ul li a{
+    border: 0px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    transition: 0.6s ease;
+}
+
+
+
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+    font-size: 18px;
+	color: #ffffff;
+    
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 600;
+   
+    left: 550px;
+	position: relative;
+    
+}
+.footer-col .social-links a
+{
+    
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color:rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+    position: relative;
+    left: 500px;
+   
+
+    }
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+#copyright{
+    color: whitesmoke;
+    font-size: x-small;
+    position: absolute;
+    left: 550px;
+}
+/*responsive*/
+@media(max-width: 767px){
+    .footer-col{
+      width: 50%;
+      margin-bottom: 30px;
+  }
+  }
+  @media(max-width: 574px){
+    .footer-col{
+      width: 100%;
+  }
+  }
+
+
+	
+	
+
+	
+
+
+
+
+
+       
+
+    
+   
+
+
+
+    
